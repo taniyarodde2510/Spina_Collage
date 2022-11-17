@@ -1,0 +1,184 @@
+
+:root{
+			 --position: relative;
+			--top: 50%;
+			
+		}
+
+		#main
+		{
+			overflow: auto;
+		}
+
+		#Acc i
+		{
+         margin-left: 2rem;
+		}
+
+		#t1
+		{
+			position: var(--position );
+			top : var(--top);
+			justify-content: space-evenly;
+		}
+		#t2
+		{
+			position: var(--position );
+			top : 40%;
+			justify-content: space-evenly;
+			transform: translateX(-12%);
+		}
+
+
+		
+		 #t3
+		{
+			margin-left:10px;
+			position: relative;
+			top: 40px;
+		}
+
+		#pic
+		{
+			background: #f7f7f7;
+			height: 350px;
+			
+		}
+
+		#img1
+		{
+			position: relative;
+			top: 40%;
+			
+		}
+
+		#img1:hover
+		{
+			transform: scale(1.1)
+		}
+
+		#heading1
+		{
+			position: relative;
+			top: 50%;
+			left: 50%;
+		}
+
+		#heading2
+		{
+			position: relative;
+			top: 50%;
+			left: 22%;
+		}
+
+		#v1{
+			position: relative;
+			top: 50%;
+			left: 60%;
+		}
+
+		#v2
+		{
+			position: relative;
+			top: 50%;
+			left: 32%;
+
+		}
+
+		#sec
+		{
+			position: relative;
+			top: 80px;
+		}
+
+		#sec1
+		{
+			position: relative;
+			top: 60px;
+		}
+
+		#RDcell
+		{
+			background:#3a4a70;
+			
+		}
+		#RDcell h3
+		{
+			position: relative;
+			top: 1rem;
+
+		}
+
+		#RDcell h3 i
+		{
+			margin-left: 7rem;
+		}
+
+		#RDcell:hover i
+		{
+			font-size: 2rem;
+		}
+
+		#RDcell h4
+		{
+			position: relative;
+			top: 1rem;
+
+		}
+		#ms
+		{
+			background:#f7f7f7; 
+		}
+
+		#m1
+		{
+			position: relative;
+			top: 5rem;
+		}
+		
+		#imp1
+		{
+			margin-left: 19rem;
+		}
+		
+
+		#imp2
+		{
+			background: #1e2c4d;
+			position: relative;
+			top: 2rem;
+			text-align: center;
+
+		}
+
+		#our-rec
+		{
+			animation-name: our;
+			animation-duration: 4s;
+			animation-iteration-count: infinite;
+		}
+
+		@keyframes our
+		{
+		50%
+		{
+			transform: scale(1.1);
+		}
+		100%
+		{
+			transform: scale(1.2);
+		}
+
+	    }
+
+	#tan
+	{
+		border-radius:50%;
+
+	}
+
+	#camp:hover
+	{
+     background:#3a4a70;
+
+	}
